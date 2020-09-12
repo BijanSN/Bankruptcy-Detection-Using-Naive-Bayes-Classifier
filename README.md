@@ -1,5 +1,8 @@
 # Bankruptcy-Detection-Using-Naive-Bayes-Classifier
-Project for the Chinese University of Hong Kong (CUHK) 's graduate Data Mining class
+
+* **Qualitative_Bankruptcy.data.txt**   : The project's dataset described below.
+* **Project_datamining.R**              : Data pre-processing and Data exploration/visualisation.
+* **NaivebayesClassifier.R**            : Implements the Naive Bayes Classifier on the qualitative data set.
 
 
 # Introduction
