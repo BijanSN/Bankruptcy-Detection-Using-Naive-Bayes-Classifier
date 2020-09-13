@@ -40,7 +40,6 @@ A more graphical and intuitive way to express the following matrix is done by us
 The darkest area suggests a higher correlation.
 
 
-
 Our major interest in this section lies in the feature selection and therefore the redundancy of the data must be checked. As we can see, competitiveness-credibility and financial flexibility-credibility are highly correlated with each other, which can question whether credibility really adds any value over the other attributes. For this reason, the study was implemented with and without this particular variable to see its impact on the classification result.
 
 
@@ -88,14 +87,11 @@ The second model’s result - which does not feature competitiveness as it was s
 This model features less accuracy, sensitivity and specificity than the former model. The competitiveness was therefore useful in order to correctly classify the firms. This highlight the fact that the correlation-based feature selection might not work everytime as the correlation only captures the linear relationship among the data.
 Major information was extracted; certain attributes are really significant in the determination of the bankruptcy, such as the competitiveness, credibility or financial flexibility. Even more overwhelming to see that no bankruptcy occurred when the company didn’t report any sign of frailty over competition. Of course, this is subject to selection bias, therefore no causal relationship should be imposed before conducting a proper study. Given the fact that these data are not representative of the whole market since it contains only data from a very specific country (South Korea), at a very specific timeframe (2001-2002), one should be careful handling these results.
 
-
-
 ![alt-text](https://github.com/BijanSN/Bankruptcy-Detection-Using-Naive-Bayes-Classifier/blob/master/Figures/ConfusionMatrix.png)
 ![alt-text](https://github.com/BijanSN/Bankruptcy-Detection-Using-Naive-Bayes-Classifier/blob/master/Figures/Sensitivity.png)
 
 # Conclusion
 To conclude, the naïve Bayes classifier worked very well despite the violation of the independence of the attributes. The goal of the study- classify bankruptcy level given internal risks metrics- is therefore achieved. However, one could add more complexity to the model by introducing time variant variables (if the availability of data permits) as well as the introduction of a cost matrix heavily impacting the classifier if it misclassifies one firm as not bankrupt where it’s the case. However, to put things into perspective, new useful non-obvious information was extracted in order to take better managerial decision: one should focus on reducing its competitive risk as soon as possible in order to reduce the probability of bankruptcy. The goal of data mining was found and the comparison of models lies into the competence of machine learning projects more that data mining.
-References:
 
 # References
 1) http://aircconline.com/ijdkp/V5N1/5115ijdkp03.pdf
